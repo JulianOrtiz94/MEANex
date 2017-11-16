@@ -8,6 +8,9 @@ import { QuestionDetailComponent } from './question/question-detail.component';
 // Material Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+
+// Utilities
+import { MomentModule } from 'angular2-moment';
 import 'hammerjs';
 
 
@@ -19,7 +22,8 @@ import 'hammerjs';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    MomentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
