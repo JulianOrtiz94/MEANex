@@ -12,6 +12,7 @@ h2{
 .answers-list{
   padding-left: 1px;
   list-style-type: none;
+  padding-bottom: 180px;
 }
 h5{
   margin-bottom: 0;
@@ -27,4 +28,13 @@ h5 small {
   margin-top: 5px;
   border-left: 2px solid #eee;
   font-size: 14px;
+}
+.answer-form{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  background: white;
+  border-top: 1px solid #dcdcdc;
 }
