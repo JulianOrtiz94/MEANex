@@ -6,7 +6,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { QuestionDetailComponent } from './question/question-detail.component';
 import { AnswerFormComponent } from './answer/answer-form.component';
-import { SiginScreenComponent } from './auth/signin-screen.component'
+import { SiginScreenComponent } from './auth/signin/signin-screen.component';
+import { SignupScreenComponent } from './auth/signup/signup-screen.component';
+import { QuestionListComponent } from './question/question-list.component';
 
 // Material Angular
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,7 +24,9 @@ import 'hammerjs';
     AppComponent,
     QuestionDetailComponent,
     AnswerFormComponent,
-    SiginScreenComponent
+    SiginScreenComponent,
+    SignupScreenComponent,
+    QuestionListComponent
   ],
   imports: [
     BrowserModule,
